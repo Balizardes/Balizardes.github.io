@@ -2,19 +2,35 @@ body{
 	text-align: left;
 	background: white;
     font-family: Arial, serif;
-   color: black
+	color: black
 }
 
-.logo{ top:0;
-		left: 0; 
-		size: 10px;}
+.bgHeader {
+    /* The image used */
+    background-image: url("images/Temps.jpeg");
+
+    /* Full height */
+    height: 120%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1000
+}
+
+.logo { 
+	top:0;
+	left: 0; 
+	height: 5%;
+	width: 5%
+}
 
 
 h1{  
-	color: black;
 	font-size: 35px;
 	text-align: center ;
-	margin: 47px;}
+}
 
 h2{font-size: 25px;
 	text-align: center;}
